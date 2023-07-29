@@ -23,3 +23,13 @@ let isLeapYear : boolean = false ;
 //      2.  Use the commands in github to connect to your local
 //      3.  Push the files from local to github (3 steps)
 
+if (month === 2) {
+    if (leapYear) {
+      console.log("Number of days in February (Leap Year): 29");
+    } else {
+      console.log("Number of days in February: 28");
+    }
+  } else if (month === 4 || month === 6 || month === 9 || month === 11) {
+    console.log("Number of days in the selected month: 30");
+  } else {
+    console.log("Number of days in the selected month: 31");
